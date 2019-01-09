@@ -38,4 +38,7 @@ public class LoginBean {
       return null; 
     } 
   } 
+  public String toString() {
+return userName+" "+password;	  
+  }
 }
